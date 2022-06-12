@@ -12,3 +12,6 @@ nest generate module messages
 
 to create controller and add it to the module, 
 nest generate controller messages/messages --flat
+
+to install validator for your classes
+npm install class-validator class-transformer
