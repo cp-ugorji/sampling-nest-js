@@ -1,0 +1,14 @@
+to install nestjs globally
+npm install -g @nestjs/cli
+
+to create a nestjs application using cli
+nest new <application_name>
+
+to run nestjs applicationin dev mode
+npm run start:dev
+
+to create module in nestjs
+nest generate module messages
+
+to create controller and add it to the module, 
+nest generate controller messages/messages --flat
